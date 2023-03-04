@@ -7,6 +7,11 @@
 
 Sets an "IsRendering" parameter to animate when being looked at.
 
+<div>
+  <img src="https://raw.githubusercontent.com/VRLabs/IsRendering-Detection/main/Media/trollcull.gif" width="100%">
+  <br/>
+</div>
+
 ## How it works
 
 The prefab contains a sub-animator, a sender, a receiver, and a renderer.  
