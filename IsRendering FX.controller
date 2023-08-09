@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9192339526532052504}
@@ -60,7 +60,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 801223402334094404}
@@ -237,7 +237,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3624587641119555688}
@@ -262,12 +262,12 @@ AnimatorController:
   m_Name: IsRendering FX
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: IsRendering
+  - m_Name: RenderingDetection/IsRendering
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: IsRendering Detection Main
@@ -304,16 +304,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -3624587641119555688}
-    m_Position: {x: -90, y: 190, z: 0}
+    m_Position: {x: -90, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 801223402334094404}
-    m_Position: {x: -90, y: 270, z: 0}
+    m_Position: {x: -90, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5113217017202685079}
-    m_Position: {x: 140, y: 270, z: 0}
+    m_Position: {x: 150, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9192339526532052504}
-    m_Position: {x: 140, y: 190, z: 0}
+    m_Position: {x: 150, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -361,7 +361,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5113217017202685079}
@@ -386,7 +386,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5113217017202685079}
@@ -438,7 +438,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsRendering
+    m_ConditionEvent: RenderingDetection/IsRendering
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3624587641119555688}
