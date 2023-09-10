@@ -83,7 +83,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - IsRendering
+  - RenderingDetection/IsRendering
 --- !u!1 &5442661826531506160
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,12 +297,12 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - IsRendering
+  - RenderingDetection/IsRendering
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: IsRendering
+  parameter: RenderingDetection/IsRendering
   minVelocity: 0.05
 --- !u!1 &5442661827426159662
 GameObject:
