@@ -40,7 +40,7 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ## How to use
 
-* The ``IsRendering`` parameter is a bool. The value will be true when ``Renderer`` is in view, and false when outside of view.
+* Add the ``IsRendering`` bool parameter to any of your Playable Layers. The value will be true when ``Renderer`` is in view, and false when outside of view.
   * You can use this bool to build your own systems.
 * In the prefabs hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
   * You can put your own objects into the containers to show or hide them accordingly
