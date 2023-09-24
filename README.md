@@ -32,18 +32,19 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ## Install guide
 
-* Merge the Animator Cdontroller ``IsRendering FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-* Drag & Drop the ``IsRendering Detection`` prefab onto the avatar.
+* Merge the Animator Controller ``IsRendering FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Drag & Drop the ``IsRendering Detection`` prefab into the base of your Hierarchy.
+* Right click and unpack the prefab, then drag & drop it onto your avatar.
 * Expand the prefab hierarchy and find ``Culling Animator`` -> ``Renderer``.
 * Modify the bounds of the renderer to fit the view target such as your avatar.
 
 ## How to use
 
-The ``IsRendering`` parameter is a bool. The value will be true when ``Renderer`` is in view, and false when outside of view.  
-Under the prefab's hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
-
-The containers have a cube and sphere for previewing and confirming that it works. Feel free to delete them.  
-The FX layer ``Is Rendering`` is for the preview. It uses a 10 frames delay for [coyote time](https://en.wiktionary.org/wiki/coyote_time). Feel free to delete it.
+* The ``IsRendering`` parameter is a bool. The value will be true when ``Renderer`` is in view, and false when outside of view.
+  * You can use this bool to build your own systems.
+* In the prefabs hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
+  * You can put your own objects into the containers to show or hide them accordingly
+  * The containers have a cube and sphere for previewing and confirming that the system works, feel free to delete them.  
 
 ## Performance stats
 
