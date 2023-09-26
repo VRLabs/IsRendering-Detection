@@ -32,6 +32,8 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ## Install guide
 
+https://github.com/VRLabs/IsRendering-Detection/assets/76777936/b51ac145-17a8-47eb-acbf-883242073b6b
+
 * Merge the Animator Controller ``IsRendering FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & Drop the ``IsRendering Detection`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
