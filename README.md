@@ -12,7 +12,8 @@
 
 Sets an "IsRendering" parameter to true when being looked at
 
-![Alt text](https://raw.githubusercontent.com/VRLabs/IsRendering-Detection/main/Media/trollcull.gif)
+![IsRendering](https://github.com/VRLabs/IsRendering-Detection/assets/76777936/d80442cb-78d9-4f70-ba53-f12c92123f6b)
+
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
 
