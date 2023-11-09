@@ -12,7 +12,7 @@
 
 Sets an "IsRendering" parameter to true when being looked at
 
-![IsRendering](https://github.com/VRLabs/IsRendering-Detection/assets/76777936/d80442cb-78d9-4f70-ba53-f12c92123f6b)
+![IsRendering](https://github.com/VRLabs/IsRendering-Detection/assets/76777936/c9e3c459-1d80-4d6f-9a83-bacfac26c68d)
 
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
