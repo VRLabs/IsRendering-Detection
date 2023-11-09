@@ -15,7 +15,7 @@ Sets an "IsRendering" parameter to true when being looked at
 ![IsRendering](https://github.com/VRLabs/IsRendering-Detection/assets/76777936/c9e3c459-1d80-4d6f-9a83-bacfac26c68d)
 
 
-### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
 
 <!-- 
 ### 📦 [Add to VRChat Creator Companion]() -->
