@@ -43,7 +43,7 @@ https://github.com/VRLabs/IsRendering-Detection/assets/76777936/b51ac145-17a8-47
 
 ## How to use
 
-* Add the ``IsRendering`` bool parameter to any of your Playable Layers. The value will be ``True`` when ``Renderer`` is in view, and false when outside of view.
+* Add the ``RenderingDetection/IsRendering`` bool parameter to any of your Playable Layers. The value will be ``True`` when ``Renderer`` is in view, and false when outside of view.
   * You can use this bool to build your own systems in your FX Controller.
 * In the prefabs hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
   * You can put your own objects into the containers to show or hide them accordingly
