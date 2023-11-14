@@ -96,4 +96,3 @@ IsRendering Detection is available as-is under MIT. For more information see [LI
 
 </div>
 
----
