@@ -27,9 +27,9 @@ Sets an "IsRendering" parameter to true when being looked at
 ## How it works
 
 * The prefab contains a sub-animator, a sender, a receiver, and a renderer.  
-* The sub-animator constantly animates the sender on, which is setting ``IsRendering`` to true.  
+* The sub-animator constantly animates the sender on, setting ``IsRendering`` to true.  
 * When the renderer is not in view, the sub-animator stops running and will no longer animate the sender on.  
-* The main-animator can then animate the sender off, which sets ``IsRendering`` to false.
+* The main-animator can then animate the sender off, setting ``IsRendering`` to false.
 
 ## Install guide
 
@@ -45,9 +45,9 @@ https://github.com/VRLabs/IsRendering-Detection/assets/76777936/b51ac145-17a8-47
 
 * Add the ``RenderingDetection/IsRendering`` bool parameter to any of your Playable Layers. The value will be ``True`` when ``Renderer`` is in view, and false when outside of view.
   * You can use this bool to build your own systems in your FX Controller.
-* In the prefabs hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
+* In the prefab's hierarchy, the ``IsRendering Container`` is enabled when in view. ``IsNotRendering Container`` is enabled when not in view.
   * You can put your own objects into the containers to show or hide them accordingly
-  * The containers have a cube and sphere for previewing and confirming that the system works, feel free to delete them.  
+  * The containers include a cube and sphere for previewing and confirming that the system works; feel free to delete them.  
 
 ## Performance stats
 
