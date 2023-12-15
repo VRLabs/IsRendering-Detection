@@ -1,0 +1,25 @@
+{
+  "name": "dev.vrlabs.isrendering-detection",
+  "displayName": "IsRendering Detection",
+  "version": "1.0.999",
+  "unity": "2019.4",
+  "description": "Sets an \"IsRendering\" parameter to true when being looked at",
+  "author": {
+    "name": "VRLabs",
+    "email": "mail@vrlabs.dev",
+    "url": "https://vrlabs.dev"
+  },
+  "siteUrl": "https://github.com/VRLabs/IsRendering-Detection",
+  "vpmDependencies": {
+    "dev.vrlabs.instancer": "1.x"
+  },
+  "legacyFolders": {
+    "Assets\\VRLabs\\IsRendering Detection": "0a323fedc1a15df488611b180c214891"
+  },
+  "unityPackageDestinationFolder": "Assets/VRLabs/IsRendering Detection",
+  "unitypackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/IsRendering Detection": "0a323fedc1a15df488611b180c214891"
+  },
+  "vccRepoCategory": "components"
+}
