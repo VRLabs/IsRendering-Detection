@@ -18,7 +18,7 @@ namespace VRLabs.IsRenderingDetection
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/IsRendering Detection")]
+		[MenuItem("VRLabs/Create Instance/IsRendering Detection")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
