@@ -18,13 +18,13 @@
     "Assets\\VRLabs\\IsRendering Detection": "0a323fedc1a15df488611b180c214891"
   },
   "unityPackageDestinationFolder": "Assets/VRLabs/IsRendering Detection",
-  "unitypackageDestinationFolderMetas": {
-    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
-    "Assets/VRLabs/IsRendering Detection": "0a323fedc1a15df488611b180c214891"
-  },
   "vccRepoCategory": "components",
   "media": {
     "previewImage": "https://github.com/VRLabs/IsRendering-Detection/blob/main/Media/Preview.webp",
     "previewGif": "https://github.com/VRLabs/IsRendering-Detection/blob/main/Media/Preview.gif"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/IsRendering Detection": "0a323fedc1a15df488611b180c214891"
   }
 }
