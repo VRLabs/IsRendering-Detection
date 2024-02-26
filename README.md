@@ -17,8 +17,8 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.isrendering-detection)
 
 </div>
 
