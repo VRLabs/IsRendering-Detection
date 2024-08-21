@@ -15,9 +15,7 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ![IsRendering](https://github.com/VRLabs/IsRendering-Detection/assets/76777936/c9e3c459-1d80-4d6f-9a83-bacfac26c68d)
 
-
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/IsRendering-Detection/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.isrendering-detection)
 
@@ -99,4 +97,3 @@ IsRendering Detection is available as-is under MIT. For more information see [LI
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
