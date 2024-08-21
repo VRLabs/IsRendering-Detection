@@ -42,6 +42,9 @@ https://github.com/VRLabs/IsRendering-Detection/assets/76777936/b51ac145-17a8-47
 * Expand the prefab hierarchy and find ``Culling Animator`` -> ``Renderer``.
 * Modify the bounds of the renderer to fit the view target such as your avatar.
 
+> [!NOTE]  
+> When building for Quest, you will have to remove unsupported components and shaders
+
 ## How to use
 
 * Add the ``RenderingDetection/IsRendering`` bool parameter to any of your Playable Layers. The value will be ``True`` when ``Renderer`` is in view, and false when outside of view.
