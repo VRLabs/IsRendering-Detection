@@ -3,7 +3,7 @@
   "displayName": "IsRendering Detection",
   "version": "1.0.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "Sets an \"IsRendering\" parameter to true when being looked at",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/IsRendering Detection": "0a323fedc1a15df488611b180c214891"
-  }
+  },
+  "questCompatibility": "full"
 }
